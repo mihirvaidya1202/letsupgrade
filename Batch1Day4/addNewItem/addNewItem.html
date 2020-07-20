@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addNewItem.css">
+</head>
+<body>
+    <div id="containerTitle">Shopping list</div>
+    <div id="container">
+        <textarea id="txt" cols="30" rows="3"></textarea>
+        <div id="addButton" onclick="Add()">Add</div>
+        <div id="list"></div>
+        <div id="newItems"></div>
+    </div>
+    <script>
+        var shoppingList=["a","b","c"];
+        var temp;
+        var shoppingBasket=shoppingList;
+        document.getElementById("list").innerHTML="Shopping List: "+shoppingList;
+        function Add()
+        {
+            temp=document.getElementById("txt").value;
+            if(temp!="")
+            {
+                shoppingBasket.push(temp);
+                document.getElementById("newItems").innerHTML="Shopping Basket: "+shoppingBasket;
+            }
+        }
+    </script>
+</body>
+</html>

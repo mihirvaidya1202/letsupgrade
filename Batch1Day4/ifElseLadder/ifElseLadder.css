@@ -1,0 +1,30 @@
+#containerTitle
+{
+    font-size: 30px;
+    padding:15px ;
+}
+
+#addButton
+{
+    background-color: #e6e6e6;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    padding:5px;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+#list
+{
+    padding:15px;
+    font-size: 25px;
+}
+
+#txt
+{
+    font-size: 15px;
+}

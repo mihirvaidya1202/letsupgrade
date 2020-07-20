@@ -1,0 +1,29 @@
+#addButton
+{
+    background-color: #e6e6e6;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    padding:5px;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#container
+{
+    width: 20%;  
+}
+
+#list , #newItems
+{
+    padding-top: 15px;
+}
+
+#containerTitle
+{
+    font-size: 30px;
+    padding:15px;
+}

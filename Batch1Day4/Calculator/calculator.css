@@ -1,0 +1,42 @@
+#container
+{
+    height: 425px;
+    width:25%;
+    background-color: #666666;
+    padding:5px;
+}
+
+#display
+{
+    height: 75px;
+    background-color: #e6e6e6;
+    margin-bottom: 5px;
+    font-size: 50px;
+    padding-left: 15px;
+    overflow: auto;
+}
+
+#numpad
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons
+{
+    background-color: #f2f2f2;
+    width:33%;
+    height: 30px;
+    margin:0 auto;
+    align-items: center;
+    margin-bottom: 5px;
+    text-align:center ;
+    padding-top: 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.buttons:hover
+{
+    background-color: #d9d9d9;
+}

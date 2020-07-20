@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ifElseLadder.css">
+</head>
+<body>
+    <div id="containerTitle">Salary Commision</div>
+    <div id="container">
+        <textarea id="txt" cols="30" rows="3"></textarea>
+        <div id="addButton" onclick="commision()">Enter</div>
+        <div id="list"></div>
+    </div>
+    <script>
+        function commision()
+        {
+            var sal=document.getElementById("txt").value;
+            console.log(typeof sal);
+            var regex=/[0-9]/;
+            var result=sal.match(regex);
+            if(sal!="" && result)
+            {
+                if(sal<5000)
+                {
+                    document.getElementById("list").innerHTML="Commision is 2%";
+                }
+                else if(sal<10000)
+                {
+                    document.getElementById("list").innerHTML="Commision is 5%";
+                }
+                else if(sal<20000)
+                {
+                    document.getElementById("list").innerHTML="Commision is 7%";
+                }
+                else 
+                {
+                    document.getElementById("list").innerHTML="Commision is 10%";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
