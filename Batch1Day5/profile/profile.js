@@ -53,9 +53,9 @@ class Administrator extends Moderator
             {
                 var temp=user.courses[i];
                 user.courses.splice(i,1);
+                console.log(`The course deleted is ${temp}`)
             }
         }
-        console.log(`The course deleted is ${temp}`)
         console.log(user.courses);
     }
 }
