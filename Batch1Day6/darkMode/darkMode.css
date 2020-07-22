@@ -1,0 +1,62 @@
+#heading
+{
+    font-size: 30px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+#addName,#toggleButton
+{
+    width:80px;
+    height:30px;
+    padding:5px;
+    margin-top:10px;
+    margin-left: 50px;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+}
+
+#inputBox
+{
+    margin-left: 10px;
+}
+
+#showName
+{
+
+    margin:20px 25px;  
+    font-size: 20px; 
+}
+
+#showTime
+{
+    margin-left:25px;
+    float: right;
+    font-size: 30px;
+
+}
+
+#container
+{
+    width:400px;
+}
+
+#headingContainer::after
+{
+    clear: both;
+}
+
+#headingContainer
+{
+    height: 50px;
+}
+
+.dark
+{
+    color: white;
+    background-color: black;
+
+}

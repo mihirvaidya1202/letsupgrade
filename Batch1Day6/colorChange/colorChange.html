@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var colors=["red","blue","green","yellow"];
+        var i=0;
+        var length=colors.length;
+        console.log(length);
+        setInterval(
+            function loop()
+            {
+                document.body.style.backgroundColor=colors[i];
+                console.log(i);
+                i++;
+                i=i%length;
+            }, 5000);
+    </script>
+</body>
+</html>
